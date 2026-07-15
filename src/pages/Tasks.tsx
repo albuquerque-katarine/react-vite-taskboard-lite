@@ -69,7 +69,7 @@ export default function Tasks() {
                                 <td className={`${theme === 'light' ? 'text-white' : 'text-gray-color'} p-2`}>{ task.title }</td>
                                 <td className={`${theme === 'light' ? 'text-white' : 'text-gray-color'} p-2`}>{ task.status }</td>
                                 <td className={`${theme === 'light' ? 'text-white' : 'text-gray-color'} p-2`}>
-                                    <Link to={`/detail/${task.id}`} className={`${theme === 'light' ? 'text-blue-marinho' : 'text-white'} hover:bg-teal-600 text-white font-bold py-2 px-3 rounded-[10px] w-full max-w-[130px] lg:max-w-[200px] text-center`}>Ver detalhes</Link>
+                                    <Link to={`/detail/${task.id}`} className={`${theme === 'light' ? 'text-blue-marinho' : 'text-white'} hover:bg-teal-600 font-bold py-2 px-3 rounded-[10px] w-full max-w-[130px] lg:max-w-[200px] text-center`}>Ver detalhes</Link>
                                 </td>
                             </tr>
                         ))
