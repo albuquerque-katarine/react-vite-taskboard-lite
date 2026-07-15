@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar";
 import { useTheme } from "./contexts/ThemeContext";
 import Router from "./routes"
 
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <div className={`${theme === "light" ? "bg-gray-color h-[100vh]" : "bg-white h-[100vh]"} h-[100%]`}>      
-      <Router/>      
+      <Navbar/>        
     </div>
   )
 }
