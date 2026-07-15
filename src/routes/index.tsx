@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import Tasks from "../pages/Tasks";
 import NewTask from "../pages/NewTask";
@@ -11,7 +11,7 @@ import Custom500 from "../pages/500";
 
 export default function Router() {
     return(
-        <BrowserRouter>
+        <HashRouter>
             <Navbar/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
@@ -23,6 +23,6 @@ export default function Router() {
                 <Route path="/500" element={<Custom500/>}/>
             </Routes>
             <Footer/>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
