@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 import Button from "../Button";
 import { useTheme } from "../../contexts/ThemeContext";
 import { UserProvider, useUser } from "../../contexts/UserContext";
+import LogoLight from '../../assets/logo.svg';
+import LogoDark from '../../assets/logo-green.svg';
+import BackgroundWhite from '../../assets/background-blue.svg';
+import BackgroundDark from '../../assets/background-green.svg';
 
 export default function Navbar() {
 
@@ -17,7 +21,7 @@ export default function Navbar() {
         <nav className='flex flex-col items-center lg:flex-row lg:justify-between gap-[0.5rem] m-auto md:max-w-[600px] lg:max-w-[1024px] p-3'>
             
             <Link to="/">
-                <img className="m-auto lg:m-0 h-[20px]" src={`${theme === "light" ? "./logo-green.svg" : "./logo.svg"}`} alt="Logo" />
+                <img className="m-auto lg:m-0 h-[20px]" src={`${theme === "light" ? LogoDark : LogoLight}`} alt="Logo" />
             </Link>
 
             <ul className="flex flex-row justify-center gap-[0.5rem]">
@@ -28,7 +32,7 @@ export default function Navbar() {
             </ul>
 
             <Button background="backgrond" onclick={mudaTheme}>
-                <img className="w-[28px] rounded-[11px]" src={`${theme === "light" ? "./background-green.svg" : "./background-blue.svg"}`} alt="Background" />
+                <img className="w-[28px] rounded-[11px]" src={`${theme === "light" ? BackgroundWhite : BackgroundDark}`} alt="Background" />
             </Button>
 
             <UserProvider>
