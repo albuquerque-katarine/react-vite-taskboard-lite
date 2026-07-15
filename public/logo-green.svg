@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="102.68299mm"
+   height="13.080952mm"
+   viewBox="0 0 102.68299 13.080952"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="task-oard-kba.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.7198092"
+     inkscape:cx="396.63289"
+     inkscape:cy="1448.9951"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="1.5359613e-14"
+       y="1.0706729e-14"
+       width="102.68298"
+       height="13.080953"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(37.483808,-456.72241)">
+    <text
+       xml:space="preserve"
+       style="font-size:17.4186px;line-height:1;font-family:Audiowide;-inkscape-font-specification:Audiowide;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#87de87;fill-opacity:1;stroke-width:2.84283"
+       x="14.223409"
+       y="469.80338"
+       id="text2-8"
+       inkscape:export-filename="C:\unique-project\react\taskboard\public\logo-green.svg"
+       inkscape:export-xdpi="98.945312"
+       inkscape:export-ydpi="98.945312"><tspan
+         sodipodi:role="line"
+         id="tspan2-2"
+         style="fill:#87de87;fill-opacity:1;stroke-width:2.84283"
+         x="14.22341"
+         y="469.80338">TaskBoard</tspan></text>
+  </g>
+</svg>
