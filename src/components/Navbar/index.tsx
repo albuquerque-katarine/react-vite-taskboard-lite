@@ -4,7 +4,7 @@ import { useTheme } from "../../contexts/ThemeContext";
 import { UserProvider, useUser } from "../../contexts/UserContext";
 import LogoLight from '../../assets/logo.svg';
 import LogoDark from '../../assets/logo-green.svg';
-import BackgroundWhite from '../../assets/background-blue.svg';
+import BackgroundLight from '../../assets/background-blue.svg';
 import BackgroundDark from '../../assets/background-green.svg';
 
 export default function Navbar() {
@@ -32,7 +32,7 @@ export default function Navbar() {
             </ul>
 
             <Button background="backgrond" onclick={mudaTheme}>
-                <img className="w-[28px] rounded-[11px]" src={`${theme === "light" ? BackgroundWhite : BackgroundDark}`} alt="Background" />
+                <img className="w-[28px] rounded-[11px]" src={`${theme === "light" ? BackgroundDark : BackgroundLight}`} alt="Background" />
             </Button>
 
             <UserProvider>
