@@ -6,6 +6,8 @@
 
 Esta aplicação demonstra o uso das principais tecnologias do ecossistema React em um projeto simples e organizado. Ela utiliza React Router para navegação, Context API para configurações globais e Redux Toolkit para gerenciar uma lista de tarefas em memória. Todos os dados são armazenados em arrays, sem banco de dados ou Local Storage, com foco em boas práticas e organização de código para portfólio.
 
+### Acesse o projeto: [TaskBoard Lite](https://albuquerque-katarine.github.io/react-vite-taskboard-lite/)
+
 ## Funcionalidades
 
 ### React Router
