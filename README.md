@@ -39,35 +39,35 @@ type Task = {
 
 ### Home Page
 
-![alt text](image.png)
+![alt text](img-01.png)
 
 ### Tarefas Page
 
-![alt text](image-1.png)
+![alt text](img-02.png)
 
 ### Detalhes da Tarefa Page
 
-![alt text](image-2.png)
+![alt text](img-03.png)
 
 ### Nova Tarefa Page
 
-![alt text](image-3.png)
+![alt text](img-04.png)
 
 ### Nova Tarefa Page com Validação
 
-![alt text](image-4.png)
+![alt text](img-05.png)
 
 ### Sobre Page
 
-![alt text](image-5.png)
+![alt text](img-06.png)
 
 ### Erro 404 Page
 
-![alt text](image-6.png)
+![alt text](img-07.png)
 
 ### Erro 500 Page
 
-![alt text](image-7.png)
+![alt text](img-08.png)
 
 ## Tecnologias
 

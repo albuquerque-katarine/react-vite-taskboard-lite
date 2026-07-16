@@ -3,6 +3,7 @@ import Paragraph from "../components/Paragraph";
 import Title from "../components/Title";
 import { useSelector } from "react-redux";
 import type { RootState } from "../redux/TaskSlice";
+import Layout from "../components/Layout";
 
 export default function DetailTask() {
 
@@ -14,15 +15,18 @@ export default function DetailTask() {
 
     if(!value) {
         return (
-            <section className="flex flex-col text-center sm:text-left justify-evenly m-auto sm:h-[70vh] sm:max-w-[600px] lg:max-w-[1024px] gap-[0.5rem] p-3">
+            <Layout>
+
                 <Paragraph>Tarefa não encontrada</Paragraph>            
-            </section>
+
+            </Layout>
         )
         
     }
 
     return(
-        <section className="flex flex-col text-center sm:text-left justify-evenly m-auto sm:h-[70vh] sm:max-w-[600px] lg:max-w-[1024px] gap-[0.5rem] p-3">
+        <Layout>
+
             <Title type="h1">Tarefa: { value.title }</Title>
 
             <hr className="border-blue-marinho" />
@@ -33,6 +37,6 @@ export default function DetailTask() {
                 <Paragraph>Status: { value.status }</Paragraph>
             </aside>
 
-        </section>
+        </Layout>
     )
 }

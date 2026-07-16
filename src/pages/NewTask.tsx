@@ -6,6 +6,7 @@ import type { Task } from "../types/Task";
 import { useDispatch } from "react-redux";
 import { add } from "../redux/Story";
 import { useNavigate } from "react-router-dom";
+import Layout from "../components/Layout";
 
 export default function NewTask() {
 
@@ -23,7 +24,8 @@ export default function NewTask() {
     };
 
     return (
-        <section className="flex flex-col text-center md:text-left sm:max-w-[600px] lg:max-w-[1024px] justify-evenly gap-[0.5rem] m-auto">
+        <Layout>
+
 
             <Title type="h1">Nova Tarefa</Title>
 
@@ -69,6 +71,6 @@ export default function NewTask() {
                 <Button type="submit">Salvar Tarefa</Button>
             </form>
 
-        </section>
+        </Layout>
     )
 }
